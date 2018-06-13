@@ -34,9 +34,7 @@ public class PixelDropperApp {
         // Add the appropriate listeners.
         GlobalScreen.addNativeMouseListener(example);
 
-        while (example.button != 2) {
-            System.out.print("");
-        }
+        while (example.button != 2) System.out.print("");
 
         Color pixColor = PixelDropper.getPixelColor(example);
 
